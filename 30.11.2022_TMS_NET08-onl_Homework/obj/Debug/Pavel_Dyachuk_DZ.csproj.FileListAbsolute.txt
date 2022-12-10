@@ -1,0 +1,8 @@
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\obj\Debug\Pavel_Dyachuk_DZ.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\obj\Debug\Pavel_Dyachuk_DZ.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\obj\Debug\Pavel_Dyachuk_DZ.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\bin\Debug\Pavel_Dyachuk_DZ.exe.config
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\bin\Debug\Pavel_Dyachuk_DZ.exe
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\bin\Debug\Pavel_Dyachuk_DZ.pdb
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\obj\Debug\Pavel_Dyachuk_DZ.exe
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_DZ\obj\Debug\Pavel_Dyachuk_DZ.pdb

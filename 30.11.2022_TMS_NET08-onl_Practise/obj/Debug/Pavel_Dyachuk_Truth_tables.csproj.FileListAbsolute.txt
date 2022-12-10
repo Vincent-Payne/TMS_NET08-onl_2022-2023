@@ -1,0 +1,8 @@
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\bin\Debug\Pavel_Dyachuk_Truth_tables.exe.config
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\bin\Debug\Pavel_Dyachuk_Truth_tables.exe
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\bin\Debug\Pavel_Dyachuk_Truth_tables.pdb
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\obj\Debug\Pavel_Dyachuk_Truth_tables.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\obj\Debug\Pavel_Dyachuk_Truth_tables.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\obj\Debug\Pavel_Dyachuk_Truth_tables.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\obj\Debug\Pavel_Dyachuk_Truth_tables.exe
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_30.11.2022\Pavel_Dyachuk_Truth_tables\obj\Debug\Pavel_Dyachuk_Truth_tables.pdb

@@ -1,0 +1,8 @@
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\bin\Debug\PD_07.12.2022_Practise.exe.config
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\bin\Debug\PD_07.12.2022_Practise.exe
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\bin\Debug\PD_07.12.2022_Practise.pdb
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\obj\Debug\PD_07.12.2022_Practise.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\obj\Debug\PD_07.12.2022_Practise.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\obj\Debug\PD_07.12.2022_Practise.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\obj\Debug\PD_07.12.2022_Practise.exe
+C:\Users\Pavel\source\repos\07.12.2022_TMS_NET08-onl_Practise\PD_07.12.2022_Practise\obj\Debug\PD_07.12.2022_Practise.pdb

@@ -1,0 +1,16 @@
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\obj\Debug\Practise.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\obj\Debug\Practise.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\obj\Debug\Practise.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\bin\Debug\Practise.exe.config
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\bin\Debug\Practise.exe
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\bin\Debug\Practise.pdb
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\obj\Debug\Practise.exe
+C:\Users\Pavel\source\repos\Pavel_Dyachuk_TMS_NET08-onl_05.12.2022\Practise\obj\Debug\Practise.pdb
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\bin\Debug\Practise.exe.config
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\bin\Debug\Practise.exe
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\bin\Debug\Practise.pdb
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\obj\Debug\Practise.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\obj\Debug\Practise.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\obj\Debug\Practise.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\obj\Debug\Practise.exe
+C:\Users\Pavel\source\repos\05.12.2022_TMS_NET08-onl_Practise\Practise\obj\Debug\Practise.pdb
