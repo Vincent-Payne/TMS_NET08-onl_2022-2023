@@ -70,8 +70,22 @@ namespace _02_07._12._2022_Homework
                 char[] chars = str.ToCharArray();
                 Console.WriteLine($"{str1.ToLower()}/{str2.ToLower()}/{chars[1]}/{chars[3]}");
             }
+
+            public void PrintLettersOnlyUpperCase()
+            {
+                string str = numstr.ToUpper();
+                char[] chars = str.ToCharArray();
+                Console.WriteLine($"{str1.ToUpper()}/{str2.ToUpper()}/{chars[1]}/{chars[3]}");
+            }
+            public void PrintIsSequence()
+            {
+                string sequence = "abc";
+                if ((numberFull.IndexOf(sequence) > -1) | ((numberFull.IndexOf(sequence.ToUpper()) > -1))) {Console.WriteLine("Found abc or ABC sequence"); }
+                else { Console.WriteLine("Didn't find abc or ABC sequence"); }
+            }
             public void Is555()
             {
+                // Better to use StartsWith?
                 string str = num1;
                 char[] chars = str.ToCharArray();
                 if (chars[0] == '5' & chars[1] == '5' & chars[2] == '5') { Console.WriteLine("Document number begins with 555");}
@@ -80,6 +94,7 @@ namespace _02_07._12._2022_Homework
 
             public void IS1a2b()
             {
+                // Better To Use EndsWith?
                 if (numstr == "1a2b") { Console.WriteLine("Document number ends with 1a2b"); }
                 else { Console.WriteLine($"Document number Does NOT ends with 1a2b"); }
             }
@@ -277,8 +292,8 @@ namespace _02_07._12._2022_Homework
             Console.WriteLine("Enter document number xxxx-yyy-xxxx-yyy-xyxy, where x — number, y — letter");
             DocNumber dN = new DocNumber();
             dN.numberFull = "5551-AcB-1234-aBc-1a2b";
-            dN.PrintFull();
             string[] words = dN.numberFull.Split(new char[] { '-' });
+            dN.PrintFull();
             dN.num1 = words[0];
             dN.str1 = words[1];
             dN.num2 = words[2];
@@ -287,6 +302,8 @@ namespace _02_07._12._2022_Homework
             dN.PrintFirstNumBlocks();
             dN.PrintFullLetterBlocksHide();
             dN.PrintLettersOnlyLowerCase();
+            dN.PrintLettersOnlyUpperCase();
+            dN.PrintIsSequence();
             dN.Is555();
             dN.IS1a2b();
 
