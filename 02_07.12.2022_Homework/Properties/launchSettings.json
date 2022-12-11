@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "02_07.12.2022_Homework": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
