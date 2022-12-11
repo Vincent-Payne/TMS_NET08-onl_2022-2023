@@ -1,4 +1,6 @@
-﻿namespace _02_07._12._2022_Homework
+﻿using System.Xml.Linq;
+
+namespace _02_07._12._2022_Homework
 {
     internal class Program
     {
@@ -29,8 +31,7 @@
 - Вывести на экран в одну строку два первых блока по 4 цифры.
 - Вывести на экран номер документа, но блоки из трех букв заменить на*** (каждая буква заменятся на*). 
 - Вывести на экран только одни буквы из номера документа в формате yyy/yyy/y/y в нижнем регистре.
-- Вывести на экран буквы из номера документа в формате
-"Letters:yyy/yyy/y/y" в верхнем регистре(реализовать с помощью класса StringBuilder).
+- Вывести на экран буквы из номера документа в формате "Letters:yyy/yyy/y/y" в верхнем регистре(реализовать с помощью класса StringBuilder).
 - Проверить содержит ли номер документа последовательность abc и вывети сообщение содержит или нет(причем, abc и ABC считается одинаковой последовательностью). 
 - Проверить начинается ли номер документа с последовательности 555. 
 - Проверить заканчивается ли номер документа на последовательность 1a2b.
@@ -50,11 +51,22 @@
             public string str2;
             public string numstr;
 
-            public static string[] numberFullSplit(string number)
+            public void PrintFull()
             {
-                string[] words = number.Split(new char[] { '-' });
-                return words;
+                Console.WriteLine($"{num1}-{str1}-{num2}-{str2}-{numstr}");
             }
+
+            public void PrintFirstNumBlocks()
+            {
+                Console.WriteLine($"{num1}-{num2}");
+            }
+            public void PrintFullLetterBlocksHide()
+            {
+                Console.WriteLine($"{num1}-***-{num2}-***-{numstr}");
+            }
+
+
+
         }
 
         static void Main(string[] args)
@@ -240,14 +252,24 @@
             {
                 Console.Write("{0} ", massiv8[i]);
             }
+            // For better reading experience
+            Console.WriteLine("");
 
 
-            //Strings
+            //Strings Task
             Console.WriteLine("Enter document number xxxx-yyy-xxxx-yyy-xyxy, where x — number, y — letter");
             DocNumber dN = new DocNumber();
-            string[] words = doc_num.Split(new char[] { '-' });
-            DocNumber docNumber = new DocNumber();
-            docNumber.numberFull = Console.ReadLine();
+            dN.numberFull = Console.ReadLine();
+            string[] words = dN.numberFull.Split(new char[] { '-' });
+            dN.num1 = words[0];
+            dN.str1 = words[1];
+            dN.num2 = words[2];
+            dN.str2 = words[3];
+            dN.numstr = words[4];
+            dN.PrintFirstNumBlocks();
+            dN.PrintFullLetterBlocksHide();
+
+
 
 
         }
