@@ -31,20 +31,32 @@
 - Вывести на экран только одни буквы из номера документа в формате yyy/yyy/y/y в нижнем регистре.
 - Вывести на экран буквы из номера документа в формате
 "Letters:yyy/yyy/y/y" в верхнем регистре(реализовать с помощью класса StringBuilder).
-- Проверить содержит ли номер документа
-последовательность abc и
-вывети сообщение содержит или нет(причем, abc и ABC
-считается
-одинаковой последовательностью). 
+- Проверить содержит ли номер документа последовательность abc и вывети сообщение содержит или нет(причем, abc и ABC считается одинаковой последовательностью). 
 - Проверить начинается ли номер документа с последовательности 555. 
-- Проверить заканчивается ли номер документа на
-последовательность 1a2b.
+- Проверить заканчивается ли номер документа на последовательность 1a2b.
 Все эти методы реализовать в отдельном классе в статических методах, которые на вход(входным параметром) будут принимать вводимую на вход программы строку.*/
 
         public class Scanner
         {
             public int keyboard_input { get; set; }
         }
+
+        public class DocNumber
+        {
+            public string numberFull;
+            public string num1;
+            public string str1;
+            public string num2;
+            public string str2;
+            public string numstr;
+
+            public static string[] numberFullSplit(string number)
+            {
+                string[] words = number.Split(new char[] { '-' });
+                return words;
+            }
+        }
+
         static void Main(string[] args)
         {
             // 0) Print odd numbers
@@ -228,6 +240,16 @@
             {
                 Console.Write("{0} ", massiv8[i]);
             }
+
+
+            //Strings
+            Console.WriteLine("Enter document number xxxx-yyy-xxxx-yyy-xyxy, where x — number, y — letter");
+            DocNumber dN = new DocNumber();
+            string[] words = doc_num.Split(new char[] { '-' });
+            DocNumber docNumber = new DocNumber();
+            docNumber.numberFull = Console.ReadLine();
+
+
         }
 
 
