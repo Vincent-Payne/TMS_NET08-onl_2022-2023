@@ -24,7 +24,7 @@ namespace Practise
         // Method to find the Average
         static double GetAverage(int[,] massiv)
         {
-            int sum = 0;
+            double sum = 0;
             foreach (var elementMass in massiv)
             {
                 sum += elementMass;
@@ -62,21 +62,7 @@ namespace Practise
             }
         }
 
-        // Method to find Minimum element in a column
-        static void GetMinInColumn(int[,] mass)
-        {
-            int min = mass[0, 0];
-            for (int j = 0; j < 10; j++)
-            {
-                min = mass[0, j];
-                for (int i = 0; i < 10; i++)
-                    if (min >= mass[i, j])
-                    {
-                        min = mass[i, j];
-                    }
-                Console.WriteLine("Min element in column {0} is {1}", j + 1, min);
-            }
-        }
+
 
         static void Main(string[] args)
         {
