@@ -48,42 +48,189 @@
         static void Main(string[] args)
         {
             // 0) Print odd numbers
-            Console.WriteLine("Нечётные числа:");
+            Console.WriteLine("Task 0");
+            Console.WriteLine("Odd numbers:");
             for (int i = 1; i < 100; i++) { Console.Write("{0} ", i++); };
             Console.WriteLine("");
-            
+
             // For better reading experience
             Console.WriteLine("");
 
             // 1) Print numbers from 5 to 1
-            Console.WriteLine("Числа от 5 до 1:");
+            Console.WriteLine("Task 1");
+            Console.WriteLine("Numbers from 5 to 1:");
             for (int i = 5; i > 0; i--) { Console.Write("{0} ", i); };
             Console.WriteLine("");
             // For better reading experience
             Console.WriteLine("");
 
             // 2) Summ numbers from 1 to x, where x inputed by user
+            Console.WriteLine("Task 2");
             uint pdn;
             uint summa_pdn = 0;
-            Console.WriteLine("Enter positive decimal number");
+            Console.WriteLine("Enter positive decimal number to find summ from 1 to entered number");
             pdn = uint.Parse(Console.ReadLine());
             summa_pdn = (pdn * (pdn + 1)) / 2;
-            Console.WriteLine("Summ from 1 to {0} = {1}",pdn, summa_pdn);
+            Console.WriteLine("Summ from 1 to {0} = {1}", pdn, summa_pdn);
             // For better reading experience
             Console.WriteLine("");
 
             // 3) Create array of integer. Figure out if inputed number is in array.
-            int[] array = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10};
+            Console.WriteLine("Task 3");
+            int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10 };
             bool answer = false;
             Scanner input = new Scanner();
-            Console.WriteLine("Enter integer number");
+            Console.WriteLine("Enter integer number to find out if it is in the array or not");
             input.keyboard_input = int.Parse(Console.ReadLine());
-            for(int i = 0; i < array.Length; i++) { if (array[i] == input.keyboard_input) answer = true; };
+            for (int i = 0; i < array.Length; i++) { if (array[i] == input.keyboard_input) answer = true; };
             Console.WriteLine("Inputed number is in array - {0}", answer);
             // For better reading experience
             Console.WriteLine("");
 
 
+            // 4) Create random array. Find and display: max, min, average
+            Console.WriteLine("Task 4");
+            Console.WriteLine("Enter positive decimal number for array size");
+            uint array_size = 0;
+            array_size = uint.Parse(Console.ReadLine());
+            int[] massiv = new int[array_size];
+
+            // Creating Random instance
+            var rnd_num = new Random();
+
+            // Garbaging computer memmory ¯\_(ツ)_/¯
+            for (int i = 0; i < massiv.Length; i++)
+            {
+                massiv[i] = rnd_num.Next(-100, 100);
+            }
+            //Printing array
+            Console.WriteLine("Your array:");
+            for (int i = 0; i < massiv.Length; i++)
+            {
+                Console.Write("{0} ",massiv[i]);
+            }
+            // For better reading experience
+            Console.WriteLine("");
+
+            // Finding the Average
+            double sum = 0; 
+            double average = 0;
+                foreach (var elementMass in massiv)
+                {
+                    sum += elementMass;
+                }
+                average = sum / massiv.Length;
+
+            // Finding Maximum element of array
+                int max = massiv[0];
+                foreach (var elementMass in massiv)
+                {
+                    if (max < elementMass)
+                    {
+                        max = elementMass;
+                    }
+                }
+
+            // Finding Minimum element of array
+                int min = massiv[0];
+                for (int i = 0; i < massiv.Length; i++)
+                        if (min >= massiv[i])
+                        {
+                            min = massiv[i];
+                        }
+            // Printing rezults
+            Console.WriteLine("Maximum ellement {0}, Minimum ellement {1}, The Average {2:0.00}", max, min, average);
+            // For better reading experience
+            Console.WriteLine("");
+
+            // 5) Create 2 arrays of 5 numbers. Display each array in a separate row
+            Console.WriteLine("Task 5");
+            int[] array5 = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10 };
+            int[] array52 = new int[] { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, -2, -4, -6, -8, -10, -12, -14, -16, -18, -20 };
+            Console.WriteLine("Two arrays in separate rows");
+            for (int i = 0; i < array5.Length; i++)
+            {
+                Console.Write("{0} ", array5[i]);
+            }
+            Console.WriteLine("");
+            for (int i = 0; i < array52.Length; i++)
+            {
+                Console.Write("{0} ", array52[i]);
+            }
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            // 6) Output first 11 Fibonacci numbers
+            Console.WriteLine("Task 6");
+            Console.WriteLine("First 11 Fibonacci numbers");
+            Console.Write("0, 1, 1");
+            int fibn = 1;
+            int fibn_plus = 1;
+            for (int i = 3; i < 11; i++)
+            {
+                int fib = fibn + fibn_plus;
+                fibn = fibn_plus;
+                fibn_plus = fib;
+                Console.Write(", {0}", fib);
+            }
+            // For better reading experience
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            // 7) Create array, output, replace odd members by 0 , output
+            Console.WriteLine("Task 7");
+            int[] massiv7 = new int[11];
+
+            // Creating Random instance
+            var rnd_num7 = new Random();
+
+            // Garbaging computer memmory ¯\_(ツ)_/¯
+            for (int i = 0; i < massiv7.Length; i++)
+            {
+                massiv7[i] = rnd_num7.Next(-100, 100);
+            }
+            //Printing array
+            Console.WriteLine("Your array:");
+            for (int i = 0; i < massiv7.Length; i++)
+            {
+                Console.Write("{0} ", massiv7[i]);
+            }
+            // For better reading experience
+            Console.WriteLine("");
+            // Output
+            Console.WriteLine("Your new array:");
+            for (int i = 0; i < massiv7.Length; i++)
+            {
+                if (i % 2 == 1) { massiv7[i] = 0; }
+                Console.Write("{0} ", massiv7[i]);
+            }
+            // For better reading experience
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            // 8) Create array of people names, sort, output
+            Console.WriteLine("Task 8");
+            string[] massiv8 = new string[] { "Sam", "John", "Pavel", "Andrey", "Alexey", "Victor", "Mihail", "SpongeBob", "Din"};
+            Console.WriteLine("Your array:");
+            for (int i = 0; i < massiv8.Length; i++)
+            {
+                Console.Write("{0} ", massiv8[i]);
+            }
+            // For better reading experience
+            Console.WriteLine("");
+
+            Array.Sort(massiv8);
+            // For better reading experience
+            Console.WriteLine("");
+            // Output
+            Console.WriteLine("Your new array:");
+            for (int i = 0; i < massiv8.Length; i++)
+            {
+                Console.Write("{0} ", massiv8[i]);
+            }
         }
+
+
+
     }
 }
