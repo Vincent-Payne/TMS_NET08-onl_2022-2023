@@ -123,13 +123,92 @@ namespace _05_14._12._2022_Homework
             }
         }
 
+        class ATM
+        {
+            public uint banknote_20, banknote_50, banknote_100;
+            public uint give_banknote_20, give_banknote_50, give_banknote_100;
+
+
+            public ATM()
+            {
+                banknote_20 = 500;
+                banknote_50 = 300;
+                banknote_100 = 150;
+            }
+            public ATM(uint b20, uint b50, uint b100)
+            {
+                banknote_20 += b20;
+                banknote_50 += b50;
+                banknote_100 += b100;
+            }
+
+            public void ATM_Info()
+            {
+                Console.WriteLine($"ATM contains:\nBanknotes 20 - {this.banknote_20}\nBanknotes 50 - {this.banknote_50}\nBanknotes 100 - {this.banknote_100}");
+            }
+
+
+            public void AddBanknotes(uint b20, uint b50, uint b100)
+            {
+                this.banknote_20 += b20;
+                this.banknote_50 += b50;
+                this.banknote_100 += b100;
+            }
+
+            public bool GetBanknotesRequest(uint b20, uint b50, uint b100)
+            {
+                if ((this.banknote_20 - b20 >= 0) & (this.banknote_50 - b50 >= 0) & (this.banknote_100 - b100 >= 0))
+                {
+                    this.give_banknote_20 = b20;
+                    this.give_banknote_50 = b50;
+                    this.give_banknote_100 = b100;
+                    return true;
+                }
+                else 
+                {
+                    Console.WriteLine("Error: not enought currency in ATM");
+                    return false; 
+                }
+            }
+
+            public void OperationWithdraw(bool b)
+            {
+                if (b)
+                {
+                    Console.WriteLine("Operation successful");
+                    Console.WriteLine($"Withdrawed: Banknotes 20 * {this.give_banknote_20}\nBanknotes 50 * {give_banknote_50}\nBanknotes 100 * {give_banknote_100}");
+                    this.banknote_20 -= give_banknote_20;
+                    this.banknote_50 -= give_banknote_50;
+                    this.banknote_100 -= give_banknote_100;
+                }
+                else { Console.WriteLine("Error: not enought currency in ATM"); }
+            }
+
+
+
+
+        }
+
         static void Main(string[] args)
         {
+            Console.WriteLine("Task 1:");
             Computer pc1 = new Computer("HAFF MAXIMA", 1000);
             pc1.DisplayFullInfo();
             Console.WriteLine();
             Computer pc2 = new Computer("HAFF MAXIMA ULTRA", 2000, new HDD("Western Digital", 1, "internal"), new RAM ("Hynix", 64) );
             pc2.DisplayFullInfo();
+            Console.WriteLine();
+
+            Console.WriteLine("Task 2:");
+            ATM atm = new ATM();
+            ATM atm2 = new ATM(500, 500, 500);
+            atm2.ATM_Info();
+            atm.OperationWithdraw(atm.GetBanknotesRequest(10, 20, 30));
+            atm.ATM_Info();
+            atm.AddBanknotes(100, 100, 100);
+            atm.ATM_Info();
+
+            Console.WriteLine("Task 3:");
 
 
         }
