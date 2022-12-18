@@ -183,10 +183,103 @@ namespace _05_14._12._2022_Homework
                 }
                 else { Console.WriteLine("Error: not enought currency in ATM"); }
             }
+        }
+        class Clinic
+        {
+            public Surgeon surgeon;
+            public Therapist therapist;
+            public Dentist dentist;
+            public Treatment_plan treatment_plan;
+
+            public Clinic()
+            {
+                surgeon = new Surgeon();
+                therapist = new Therapist();
+                dentist = new Dentist();
+                treatment_plan = new Treatment_plan();
+            }
+
+            public void AsignDoctor(Patient patient, string plan)
+            {
+                switch (plan) 
+                {
+                    case "1":
+                        patient.previous_healing = surgeon.Healing();
+                        break;
+                    case "2":
+                        patient.previous_healing = dentist.Healing();
+                        break;
+                    default: 
+                        patient.previous_healing = therapist.Healing();
+                        break;
+
+                }
+            }
+            public void CurrentTreatment(Patient patient)
+            {
+                Console.WriteLine($"Patient:{patient.name} {patient.surname}\n{patient.previous_healing}");
+            }
 
 
+        }
+
+        class Doctor
+        {
+            public virtual string Healing()
+            {
+                return "Selftreatment";
+            }
+
+        }
+
+        class Surgeon : Doctor
+        {
+            public override string Healing()
+            {
+                return "Healed by Surgeon";
+            }
+        }
+        class Therapist : Doctor
+        {
+            public override string Healing()
+            {
+                return "Healed by Therapist";
+            }
+
+        }
+        class Dentist : Doctor
+        {
+            public override string Healing()
+            {
+                return "Healed by Dentist";
+            }
+
+        }
+
+        class Treatment_plan
+        {
+            public string[] plan;
+            public Treatment_plan()
+            {
+                this.plan = new string[] { "1", "2", "3", "4", "5" };
+            }
+        }
+
+        class Patient
+        {
+            public string name;
+            public string surname;
+            public string bitrhday;
+            public string previous_healing;
 
 
+            public Patient(string name, string surname, string bitrhday)
+            {
+                this.name = name;
+                this.surname = surname;
+                this.bitrhday = bitrhday;
+                this.previous_healing = "";
+            }
         }
 
         static void Main(string[] args)
@@ -209,6 +302,16 @@ namespace _05_14._12._2022_Homework
             atm.ATM_Info();
 
             Console.WriteLine("Task 3:");
+            Clinic Borovljany= new Clinic();
+            Patient patient = new Patient("Pavel", "Dyachuk", "28.04.1994");
+            Borovljany.AsignDoctor(patient, "1");
+            Borovljany.CurrentTreatment(patient);
+            Borovljany.AsignDoctor(patient, "2");
+            Borovljany.CurrentTreatment(patient);
+            Borovljany.AsignDoctor(patient, "5");
+            Borovljany.CurrentTreatment(patient);
+
+
 
 
         }
