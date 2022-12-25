@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pavel\\source\\repos\\07_21.12.2022_Practise\\07_21.12.2022_Practise.csproj": {}
+    "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\07_21.12.2022_Practise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pavel\\source\\repos\\07_21.12.2022_Practise\\07_21.12.2022_Practise.csproj": {
+    "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\07_21.12.2022_Practise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pavel\\source\\repos\\07_21.12.2022_Practise\\07_21.12.2022_Practise.csproj",
+        "projectUniqueName": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\07_21.12.2022_Practise.csproj",
         "projectName": "07_21.12.2022_Practise",
-        "projectPath": "C:\\Users\\Pavel\\source\\repos\\07_21.12.2022_Practise\\07_21.12.2022_Practise.csproj",
+        "projectPath": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\07_21.12.2022_Practise.csproj",
         "packagesPath": "C:\\Users\\Pavel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pavel\\source\\repos\\07_21.12.2022_Practise\\obj\\",
+        "outputPath": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
