@@ -1,0 +1,15 @@
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\bin\Debug\net6.0\07_Interfaces_Homework_21.12.2022.exe
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\bin\Debug\net6.0\07_Interfaces_Homework_21.12.2022.deps.json
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\bin\Debug\net6.0\07_Interfaces_Homework_21.12.2022.runtimeconfig.json
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\bin\Debug\net6.0\07_Interfaces_Homework_21.12.2022.dll
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\bin\Debug\net6.0\07_Interfaces_Homework_21.12.2022.pdb
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.AssemblyInfoInputs.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.AssemblyInfo.cs
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.dll
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\refint\07_Interfaces_Homework_21.12.2022.dll
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.pdb
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\07_Interfaces_Homework_21.12.2022.genruntimeconfig.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Homework_21.12.2022\Shapes\obj\Debug\net6.0\ref\07_Interfaces_Homework_21.12.2022.dll
