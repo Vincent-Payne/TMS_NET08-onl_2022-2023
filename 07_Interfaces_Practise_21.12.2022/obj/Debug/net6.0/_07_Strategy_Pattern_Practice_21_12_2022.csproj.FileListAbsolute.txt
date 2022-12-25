@@ -1,0 +1,15 @@
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\bin\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.exe
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\bin\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.deps.json
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\bin\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.runtimeconfig.json
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\bin\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.dll
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\bin\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.pdb
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.AssemblyInfoInputs.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.AssemblyInfo.cs
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.dll
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\refint\_07_Strategy_Pattern_Practice_21_12_2022.dll
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.pdb
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\_07_Strategy_Pattern_Practice_21_12_2022.genruntimeconfig.cache
+C:\Users\Pavel\source\repos\07_Interfaces_Practise_21.12.2022\obj\Debug\net6.0\ref\_07_Strategy_Pattern_Practice_21_12_2022.dll

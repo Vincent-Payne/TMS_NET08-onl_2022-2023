@@ -1,4 +1,4 @@
-﻿namespace _07_21._12._2022_Practise
+﻿namespace _07_Strategy_Pattern_Practice_21_12_2022
 {
     internal class Program
     {

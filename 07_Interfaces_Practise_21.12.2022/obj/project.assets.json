@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\07_21.12.2022_Practise.csproj",
-      "projectName": "07_21.12.2022_Practise",
-      "projectPath": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\07_21.12.2022_Practise.csproj",
+      "projectUniqueName": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\_07_Strategy_Pattern_Practice_21_12_2022.csproj",
+      "projectName": "_07_Strategy_Pattern_Practice_21_12_2022",
+      "projectPath": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\_07_Strategy_Pattern_Practice_21_12_2022.csproj",
       "packagesPath": "C:\\Users\\Pavel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pavel\\source\\repos\\07_Interfaces_Practise_21.12.2022\\obj\\",
       "projectStyle": "PackageReference",
