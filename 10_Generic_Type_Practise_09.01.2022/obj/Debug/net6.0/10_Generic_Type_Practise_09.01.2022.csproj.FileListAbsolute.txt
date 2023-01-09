@@ -1,0 +1,15 @@
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.csproj.AssemblyReference.cache
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.AssemblyInfoInputs.cache
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.AssemblyInfo.cs
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\bin\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.exe
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\bin\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.deps.json
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\bin\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.runtimeconfig.json
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\bin\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.dll
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\bin\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.pdb
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.dll
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\refint\10_Generic_Type_Practise_09.01.2022.dll
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.pdb
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\10_Generic_Type_Practise_09.01.2022.genruntimeconfig.cache
+C:\Users\Pavel\source\repos\10_Generic_Type_Practise_09.01.2022\obj\Debug\net6.0\ref\10_Generic_Type_Practise_09.01.2022.dll
