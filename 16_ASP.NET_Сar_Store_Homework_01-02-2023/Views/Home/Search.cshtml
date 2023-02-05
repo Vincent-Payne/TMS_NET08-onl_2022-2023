@@ -1,0 +1,9 @@
+﻿@model Auto
+@{
+    ViewData["Title"] = "Car Search";
+}
+
+<form asp-controller="Home" asp-action="Find" method="post">
+    Enter Car ID: <br /><input name="Id" /><br />
+    <br /> <button type="submit">Find</button>
+</form>

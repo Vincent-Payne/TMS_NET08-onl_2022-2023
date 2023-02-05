@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Task_3";
+}
+
+<div class="text-left">
+    <h2>Name: @ViewData["str1"]</h2>
+    <h2>Age: @ViewData["byte1"]</h2>
+    <h2>Height: @ViewData["dec1"]</h2>
+</div>
+        <form asp-controller="Task" asp-action="Task3" method="post">
+    Name:<br /><input name="str1" /><br />
+    Age:<br /><input name="byte1" /><br />
+    Bank Account Balance:<br /><input name="dec1" /><br />
+           <br /> <button type="submit">Save</button>
+        </form>
+

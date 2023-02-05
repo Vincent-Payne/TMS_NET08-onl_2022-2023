@@ -1,0 +1,15 @@
+﻿@model List<Auto> 
+@{
+    ViewData["Title"] = "Available Cars";
+}
+
+@foreach (var car in Model)
+{  
+   <div class="text-left">
+    <p>ID: @car.Id</p>
+    <p>Brand: @car.Brand</p>
+    <p>Model: @car.Model</p>
+    <p>Year: @car.Year</p>
+    <p>Price: @car.Price</p><br />
+  </div>
+}
