@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using System.IO.Pipelines;
 using System.Net.Http.Json;
+using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -53,10 +55,10 @@ namespace _16_ASP.NET_Practice_01_02_2023.Controllers
             return RedirectToAction("Registration");
         }
 
-        //??? При нажатии на Car List на сайте несколько раз, первоначальный вывод дублируется
-        // Не знаю что с этим делать
+
         public IActionResult ListCars()
         {
+            _container.Clear();
             //Deserialize
             if (System.IO.File.Exists("./CarsDB.json"))
             {
@@ -80,7 +82,6 @@ namespace _16_ASP.NET_Practice_01_02_2023.Controllers
         }
 
         [HttpPost]
-        //??? Как пирвязывать действия к кнопкам и отображать информацию на той же странице где кнопки?
         public IActionResult Find([FromForm] uint id)
         {
             //Deserialize
@@ -95,21 +96,47 @@ namespace _16_ASP.NET_Practice_01_02_2023.Controllers
                     }
                 }
             }
-            //??? Как перенаправить на другой view без лишнего Action?
-            return RedirectToAction("FindError");
+            return RedirectToAction("AnError");
+        }
+
+        [HttpPost]
+        public IActionResult Delete([FromForm] uint id)
+        {
+            _container.Clear();
+            string flag = "False";
+            //Deserialize
+            if (System.IO.File.Exists("./CarsDB.json"))
+            {
+                foreach (var jsonLine in System.IO.File.ReadLines("./CarsDB.json"))
+                {
+                    Auto auto = JsonSerializer.Deserialize<Auto>(jsonLine);
+                    _container.AddAuto(auto);
+                    if (auto.Id == id) { flag = "True"; }
+                }
+            }
+
+            if (flag == "True")
+            {
+                _container.DeleteCar(id);
+                System.IO.File.Delete("./CarsDB.json");
+                //Serialize to file;
+                foreach (var Auto in _container.GetAutos())
+                { 
+                string jsonString = JsonSerializer.Serialize(Auto);
+                System.IO.File.AppendAllText("./CarsDB.json", jsonString + Environment.NewLine);
+                }
+                return RedirectToAction("ListCars");
+            }
+            return RedirectToAction("AnError");
         }
 
 
 
-        public IActionResult FindError()
+        public IActionResult AnError()
         {
             ViewData["Message"] = "No such Car! Please, enter another id.";
             return View();
         }
-
-
-
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,6 +1,5 @@
 ﻿namespace _16_ASP.NET_Practice_01_02_2023.Models
 {
-    [Serializable]
     public class AutoContainer
     {
         private List<Auto> autos;
@@ -13,6 +12,17 @@
         public void AddAuto(Auto auto)
         {
             autos.Add(auto);
+        }
+
+        public void Clear()
+        {
+            autos.Clear();
+        }
+
+        public void DeleteCar(uint id)
+        {
+            Auto temp = autos.Find(item => item.Id == id);
+            autos.Remove(temp);
         }
 
         public AutoContainer()

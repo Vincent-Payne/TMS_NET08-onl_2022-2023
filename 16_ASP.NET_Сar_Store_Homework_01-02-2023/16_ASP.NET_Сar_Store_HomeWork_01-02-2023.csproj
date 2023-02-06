@@ -15,8 +15,4 @@
     <None Remove="Views\Home\NewFile.txt" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-  </ItemGroup>
-
 </Project>

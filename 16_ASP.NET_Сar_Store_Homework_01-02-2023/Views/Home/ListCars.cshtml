@@ -2,7 +2,13 @@
 @{
     ViewData["Title"] = "Available Cars";
 }
-
+<form asp-controller="Home" asp-action="Delete" method="post">
+    Enter Car ID to Delete: <br /><input name="Id" /><br />
+    <br /> <button type="submit">Delete</button><br />
+</form>
+<div class="text-left">
+    <br /><h1>Available Cars</h1>
+</div>
 @foreach (var car in Model)
 {  
    <div class="text-left">
