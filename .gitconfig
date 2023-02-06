@@ -8,3 +8,6 @@
 	autoStash = false
 	autosquash = false
 	updateRefs = false
+[user]
+	name = Pavel Dyachuk
+	email = mr.vinpay@gmail.com
