@@ -2,11 +2,11 @@
 {
     internal class Program
     {
-        delegate void FirstDelegate(string s);//* -> place in Heap
+        //delegate void FirstDelegate(string s);//* -> place in Heap
 
         static void Main(string[] args)
         {
-            Retailer pub = new Retailer();
+            Retailer ret = new Retailer();
 
             List<INotifyable> listOfCustomers = new List<INotifyable>();
             listOfCustomers.Add(new Customer("Tommy"));
@@ -14,10 +14,10 @@
 
             foreach (var cust in listOfCustomers)
             {
-                pub.OnIphoneAppers += cust.Notify;
+                ret.OnIphoneAppers += cust.Notify;
             }
 
-            pub.Raise();
+            ret.Raise();
         }
 
     }
